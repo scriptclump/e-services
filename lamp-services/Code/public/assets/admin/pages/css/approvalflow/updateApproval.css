@@ -1,0 +1,9 @@
+div.radio span {
+  background-image : none !important;
+}
+div.radio input {
+  opacity: 1;
+}
+.radio input[type="radio"], .radio-inline input[type="radio"] {
+    margin-left:-10px !important;
+}

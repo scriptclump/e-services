@@ -1,0 +1,9 @@
+{{HTML::style('assets/global/plugins/igniteui/infragistics.theme.css')}}
+{{HTML::style('assets/global/plugins/igniteui/infragistics.css')}}
+{{HTML::style('assets/global/plugins/igniteui/cockpit.css')}}
+{{HTML::style('assets/global/plugins/igniteui/custom-infragistics.css')}}
+{{HTML::style('assets/global/plugins/igniteui/custom-infragistics.theme.css')}}
+{{HTML::script('assets/global/plugins/igniteui/infragistics.core.js')}}
+{{HTML::script('assets/global/plugins/igniteui/infragistics.lob.js')}}
+{{HTML::script('assets/global/plugins/jquery.sparkline.min.js')}}
+{{HTML::script('assets/global/plugins/igniteui/grid_script.js')}}

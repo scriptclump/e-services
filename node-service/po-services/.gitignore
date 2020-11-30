@@ -1,0 +1,6 @@
+node_modules
+.vscode
+npm-debug.log
+app/.env
+PO-SERVICES/bin.js
+PO-SERVICES/bin2.js

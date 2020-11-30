@@ -1,0 +1,16 @@
+/*
+css
+*/
+.container{
+  text-align: center;
+}
+.container .img{
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  float: left;
+}
+.container .img:hover, .container .img:hover{
+  cursor: pointer;
+  opacity: 0.6;
+} 

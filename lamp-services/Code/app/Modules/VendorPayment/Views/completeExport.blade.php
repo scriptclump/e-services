@@ -1,0 +1,118 @@
+<html>
+	<table>
+		<tr>
+			<td>Client_Code</td>
+			<td>Product_Code</td>
+			<td>Payment_Type</td>
+			<td>Payment_Ref_No.</td>
+			<td>Payment_Date</td>
+			<td>Instrument Date</td>
+			<td>Dr_Ac_No</td>
+			<td>Amount</td>
+			<td>Bank_Code_Indicator</td>
+			<td>Beneficiary_Code</td>
+			<td>Beneficiary_Name</td>
+			<td>Beneficiary_Bank</td>
+			<td>Beneficiary_Branch / IFSC Code</td>
+			<td>Beneficiary_Acc_No</td>
+			<td>Location</td>
+			<td>Print_Location</td>
+			<td>Instrument_Number</td>
+			<td>Ben_Add1</td>
+			<td>Ben_Add2</td>
+			<td>Ben_Add3</td>
+			<td>Ben_Add4</td>
+			<td>Beneficiary_Email</td>
+			<td>Beneficiary_Mobile</td>
+			<td>Debit_Narration</td>
+			<td>Credit_Narration</td>
+			<td>Payment Details 1</td>
+			<td>Payment Details 2</td>
+			<td>Payment Details 3</td>
+			<td>Payment Details 4</td>
+			<td>Enrichment_1</td>
+			<td>Enrichment_2</td>
+			<td>Enrichment_3</td>
+			<td>Enrichment_4</td>
+			<td>Enrichment_5</td>
+			<td>Enrichment_6</td>
+			<td>Enrichment_7</td>
+			<td>Enrichment_8</td>
+			<td>Enrichment_9</td>
+			<td>Enrichment_10</td>
+			<td>Enrichment_11</td>
+			<td>Enrichment_12</td>
+			<td>Enrichment_13</td>
+			<td>Enrichment_14</td>
+			<td>Enrichment_15</td>
+			<td>Enrichment_16</td>
+			<td>Enrichment_17</td>
+			<td>Enrichment_18</td>
+			<td>Enrichment_19</td>
+			<td>Enrichment_20</td>
+		</tr>
+		@if(isset($exceldata))
+			@foreach($exceldata as $data )
+				@if($data->sup_account_no != "")
+					<tr>
+						<td>EBUTOR</td>
+						<td>RPAY</td>
+						<td>
+							@if (stripos($data->sup_ifsc_code, 'KKBK') !== false)
+							   IFT
+							@else
+							   NEFT
+							@endif
+						</td>
+						<td>`{{$data->utr_number}}</td>
+						<td><?=date('d/m/Y')?></td>
+						<td></td>
+						<td>8011897435</td>
+						<td>`{{number_format($data->approved_amount, 2)}}</td>
+						<td>M</td>
+						<td>{{$data->erp_code}}</td>
+						<td>{{$data->business_legal_name}}</td>
+						<td>{{$data->sup_bank_name}}</td>
+						<td>{{$data->sup_ifsc_code}}</td>
+						<td>`{{$data->sup_account_no}}</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>{{$data->sup_add1}}</td>
+						<td>{{$data->sup_add2}}</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>{{$data->email_id}}</td>
+						<td>{{$data->mobile_no}}</td>
+						<td>{{$data->sup_account_name}}</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+					</tr>
+				@endif	
+			@endforeach 
+		@endif		
+	</table>
+</html>

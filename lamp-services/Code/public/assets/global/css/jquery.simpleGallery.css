@@ -1,0 +1,14 @@
+/* CSS Document */
+.simpleLens-thumbnails-container a{
+    display: inline-block; width:80px;
+}
+.simpleLens-thumbnails-container a img{
+    border: 1px solid #cccccc;
+    display: block;
+    height: 68px;
+    margin: 0;
+    width: 58px;
+}
+
+
+ 

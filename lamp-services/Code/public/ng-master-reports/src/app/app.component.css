@@ -1,0 +1,9 @@
+input[type="radio"], input[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0px;
+    width: 30px;
+    height: 19px;
+}
+.row.content{
+	height: auto!important;
+}

@@ -1,0 +1,125 @@
+/* jshint indent: 2 */
+
+module.exports = function(sequelize, DataTypes) {
+  return sequelize.define('vw_product_grid_all', {
+    product_id: {
+      type: DataTypes.INTEGER(11),
+      allowNull: true
+    },
+    product_title: {
+      type: DataTypes.STRING(2000),
+      allowNull: true
+    },
+    sku: {
+      type: DataTypes.STRING(100),
+      allowNull: true
+    },
+    product_group_id: {
+      type: DataTypes.INTEGER(11),
+      allowNull: true
+    },
+    kvi: {
+      type: DataTypes.STRING(500),
+      allowNull: true
+    },
+    primary_image: {
+      type: DataTypes.STRING(2000),
+      allowNull: true
+    },
+    is_approved: {
+      type: DataTypes.INTEGER(1),
+      allowNull: true
+    },
+    status: {
+      type: DataTypes.INTEGER(6),
+      allowNull: true
+    },
+    pack_size: {
+      type: DataTypes.STRING(11),
+      allowNull: true
+    },
+    pack_size_uom: {
+      type: DataTypes.STRING(500),
+      allowNull: true
+    },
+    created_by: {
+      type: DataTypes.STRING(500),
+      allowNull: true
+    },
+    created_at: {
+      type: DataTypes.DATE,
+      allowNull: true
+    },
+    mrp: {
+      type: DataTypes.DECIMAL,
+      allowNull: false,
+      defaultValue: '0.00000'
+    },
+    product_type_id: {
+      type: DataTypes.INTEGER(11),
+      allowNull: true
+    },
+    cp_enabled: {
+      type: DataTypes.INTEGER(1),
+      allowNull: false,
+      defaultValue: '0'
+    },
+    is_sellable: {
+      type: DataTypes.INTEGER(1),
+      allowNull: false,
+      defaultValue: '0'
+    },
+    esp: {
+      type: DataTypes.INTEGER(1),
+      allowNull: false,
+      defaultValue: '0'
+    },
+    elp: {
+      type: DataTypes.INTEGER(1),
+      allowNull: false,
+      defaultValue: '0'
+    },
+    ptrvalue: {
+      type: DataTypes.INTEGER(1),
+      allowNull: false,
+      defaultValue: '0'
+    },
+    taxper: {
+      type: DataTypes.STRING(12),
+      allowNull: false,
+      defaultValue: ''
+    },
+    available_inventory: {
+      type: DataTypes.INTEGER(1),
+      allowNull: false,
+      defaultValue: '0'
+    },
+    cfc_qty: {
+      type: DataTypes.INTEGER(11),
+      allowNull: true
+    },
+    category_name: {
+      type: DataTypes.STRING(500),
+      allowNull: true
+    },
+    manufacturer_name: {
+      type: DataTypes.STRING(500),
+      allowNull: true
+    },
+    brand_name: {
+      type: DataTypes.STRING(500),
+      allowNull: true
+    },
+    product_class_name: {
+      type: DataTypes.STRING(2000),
+      allowNull: true
+    },
+    le_wh_id: {
+      type: DataTypes.INTEGER(1),
+      allowNull: false,
+      defaultValue: '0'
+    }
+  }, {
+    tableName: 'vw_product_grid_all'
+  });
+};

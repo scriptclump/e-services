@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ebutor Sockt Chat</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+<span>i am here</span>
+  <!--<ul class="pages">
+    <li class="chat page">
+      <div class="chatArea">
+        <ul class="messages"></ul>
+      </div>
+      <input class="inputMessage" placeholder="Type here..."/>
+    </li>
+    <li class="login page">
+      <div class="form">
+        <h3 class="title">Your Name?</h3>
+        <input class="usernameInput" type="text" maxlength="14" />
+      </div>
+    </li>
+  </ul>-->
+
+  <div class="chat_history"></div>
+    <div class="form">
+        <h3 class="title">Enter Message</h3>
+<form class="userform">
+    <!--<input class="usernameInput" type="text" maxlength="14" />
+<input class="button" type="submit"/>
+-->
+    <input class="chat_input" id="chat_input" name="chat_input" type="text"/>
+    
+<br/><input class="room" type="hidden" id="room" value="<%- room %>"/>
+<br/><input class="user_token" type="hidden" id="user_token" value="<%- user_token %>"/>
+</form>
+    </div>
+</body>
+<style>
+  
+</style>
+<script type="text/javascript">
+var room = $("#room").val();
+var user_token = $("#user_token").val();
+if(room!=''){
+io.socket.post('/Chat/joinUser', {data:{ room: room,user_token:user_token}} );
+}
+io.socket.get('/Chat/userGroups', {data:{user_token:user_token}} );
+//io.socket.broadcast('new_message', {data:{user_token:user_token,message:"user joined" }} );
+io.socket.on('new_message', function (data) {
+    $(".chat_history").append('<br/>'+data.message+'- '+data.ticket_date);
+});
+io.socket.on('my_groups', function (data) {
+    console.log(data);
+    //$(".chat_history").append('<br/>'+data.message);
+});
+var username;
+$('form').submit(function(e){
+    e.preventDefault();
+    var message = $('#chat_input').val();
+    console.log(message);
+    console.log(room);
+    if(room!=''){
+        //io.socket.emit('new_message',{data:{ room: room,user_token:user_token,message:message,group:115001,type:116004 }} );
+        io.socket.post('/Chat/chatServer', {data:'{"parent_id":"","room":"'+ room+'","user_token":"'+user_token+'","message":"'+message+'","group":"'+room+'","type":"116004"}',file:''} );
+        $('#chat_input').val('').focus();
+    }else{
+        io.socket.post('/Chat/chatServer', {data:'{"user_token":'+user_token+',"message":'+message+' }' } );
+    }
+     //socket.emit('messages', message);
+    /*if (username) {
+        //sendMessage();
+        //socket.emit('stop typing');
+        typing = false;
+      } else {
+        setUsername();
+      }*/
+ });
+
+   
+// Sets the client's username
+  function setUsername () {
+    username = $('.usernameInput').val().trim();
+    // If the username is valid
+    if (username) {
+      $('.form').fadeOut();      
+      var socket = io.connect();
+      io.socket.post('/Chat/chatServer', { user: username, message: 'message' });
+     //socket.emit('add_user', { user: username, message: 'message' });
+    }
+  }
+</script>
+</html>

@@ -1,0 +1,203 @@
+.ui-igbrowsebutton {
+	font-weight: bold !important;
+	font-size: 1.3em !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+	text-align: center !important;
+	background: #f6f6f6 !important;
+	color: #36c;
+	border: 1px solid #f2f2f2 !important;
+	cursor: pointer !important;
+	padding: 1px !important;
+}
+.fa-question-circle-o {
+    color: #3598dc !important;
+}
+.ui-iggrid .ui-iggrid-content, .ui-iggrid .ui-widget-content, .ui-iggrid-scrolldiv table{
+	border-width: 0;
+    border-spacing: 0px !important;
+}
+.ui-iggrid .ui-iggrid-results .ui-igedit-input, .ui-iggrid .ui-iggrid-paging .ui-igedit-input{
+    width: 50px !important;
+}
+.ui-widget{overflow-scrolling: touch !important;-webkit-overflow-scrolling: touch !important; -moz-overflow-scrolling: touch !important;}
+
+.ui-iggrid .ui-iggrid-filtercell .ui-igedit:first-child input:hover{color:#000 !important;}
+.ui-igcombo-orientation-top {
+	-moz-border-radius-bottomleft: 0 !important;
+	-moz-border-radius-bottomright: 0 !important;
+	-webkit-border-bottom-left-radius: 0 !important;
+	-webkit-border-bottom-right-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+	border-top: 1px solid #f2f2f2 !important;
+	border-bottom: 0 !important;
+}
+.ui-igcombo-orientation-bottom {
+	border-top: 0 !important;
+	border-bottom: 1px solid #ccc!important;
+}
+.ui-igcombo-orientation-bottom {
+	border-top: 0 !important;
+	border-bottom: 1px solid #f2f2f2 !important;
+}
+.ui-igedit, .ui-widget .ui-igedit {
+	width: auto !important ;
+	background: #fff !important;
+	font-size: 1em !important;
+	-webkit-background-clip: padding-box !important;
+	-moz-background-clip: padding !important;
+	background-clip: padding-box !important;
+}
+.ui-iggrid th, .ui-iggrid th.ui-state-default, .ui-iggrid th.ui-state-hover, .ui-iggrid th.ui-state-active {
+	font-weight: 5px !important;
+	text-align: left;
+	height: 20px !important;
+}
+.ui-iggrid .ui-iggrid-tablebody td {
+	font-size: 12px !important;
+    font-weight: normal;
+}
+.ui-iggrid .ui-iggrid-tablebody td img{padding:1px;}
+.ui-iggrid-sortableheader>a, span.ui-iggrid-headertext {
+	font-weight: 600 !important;
+	font-size: 13px !important;
+	min-height: 18px !important;
+}
+.ui-iggrid .ui-iggrid-filtercell .ui-igedit {
+	width: auto !important;
+	margin: 5px 0px 5px 0 !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	overflow: hidden !important;
+	border-radius: 0 !important;
+	-moz-background-clip: padding !important;
+	-webkit-background-clip: padding-box !important;
+	background-clip: padding-box !important;
+	display: block !important;
+}
+.ui-iggrid-filterrow {
+	background-color: #f9f9f9 !important;
+	background-image: none !important;
+}
+
+.ui-iggrid-featurechooser-list-submenu {
+	padding: 4px !important;
+	overflow: hidden !important;
+	font-size: 12px !important;
+	line-height: 26px !important;
+	background-color: #FFF !important;
+	background-image: none !important;
+	min-width: 60px !important;
+	color: #333 !important;
+	font-weight: normal !important; 	border: 0 !important;
+}
+.ui-igtoolbarbutton.ui-igbutton.ui-state-hover {
+	border: 1px solid #999 !important;
+	background-color: #f6f6f6 !important;
+	color: #666 !important;
+}
+.ui-igpopover>.ui-widget-content {
+	font-size: 12px !important;
+	padding: 10px 17px 10px 15px !important;
+}
+.ui-igplayer-related-video-header {
+	color: #FFF !important;
+	font-size: 12px !important;
+	line-height: 20px !important;
+}
+
+.ui-iggrid-filtercell .ui-iggrid-indicatorcontainer a::before {
+    content: "" !important;
+
+}
+.ui-igedit-dropdown .ui-igedit-listitem {
+    font-size: 12px !important;
+}
+/*.ui-iggrid .ui-iggrid-footer, .ui-iggrid .ui-iggrid-toolbar{background-color: #fff !important;}*/
+.ui-iggrid .ui-iggrid-tablebody > tr > td:last-child, .ui-iggrid .ui-iggrid-table > tbody > tr > td:last-child, .ui-iggrid thead 
+.ui-iggrid .ui-iggrid-filtercell .ui-igedit{width: auto !important; height:40px !important;}
+.ui-iggrid-results{
+    bottom: 7px;
+    left: 0%;
+    position: absolute;
+}
+
+.ui-iggrid-childarea{padding-left:30px !important;}
+.portlet.box .portlet-body{border:0px solid #ccc;}
+
+.ui-iggrid .ui-iggrid-tablebody>tr>td:first-child, .ui-iggrid .ui-iggrid-table>tbody>tr>td:first-child, .ui-iggrid thead .ui-iggrid-editingcell:first-child, .ui-iggrid .ui-iggrid-addrow+.ui-iggrid-activerow td:first-child, .ui-iggrid th.ui-iggrid-rowselector-class:first-child {
+    border-left: 0px solid #dadada !important;
+}
+.ui-iggrid .ui-iggrid-tablebody>tr>td:last-child, .ui-iggrid .ui-iggrid-table>tbody>tr>td:last-child, .ui-iggrid thead .ui-iggrid-editingcell:last-child {
+    border-right: 0px solid #dadada !important;
+}
+
+.ui-iggrid .ui-iggrid-filtercell .ui-igedit {
+    height: 2.6em!important;
+}
+
+.ui-iggrid-filtercell .ui-iggrid-filterbutton {
+    margin-top: -1px!important;
+}
+.ui-widget-content {
+    border:none!important;
+}
+
+.ui-iggrid .ui-iggrid .ui-iggrid-toolbar {
+    display: none !important;
+}
+
+.ui-iggrid-scrolldiv table{border-spacing: 0px !important;}
+.ui-iggrid-results {
+    z-index: 100 !important;
+    position: absolute !important;
+    bottom: 6px !important;
+}
+
+ .ui-iggrid .ui-iggrid-headercaption, .ui-iggrid .ui-iggrid-footer, .ui-iggrid .ui-iggrid-toolbar {
+    padding: 0.1em 0.4m !important;
+}
+.scroller {
+    padding: 0 0px 0 0 !important;
+}
+
+
+.ui-iggrid .ui-iggrid-tablebody > tr > td:first-child a img{ width:100%;} 
+
+@media screen and (max-width : 1920px) {
+		.ui-iggrid-pagerrecordslabel{left:56% !important;}
+    }
+@media screen and (max-width : 1280px) {
+		.ui-iggrid-pagerrecordslabel{left:63% !important;}
+    }
+	@media screen and (max-width : 1046px) {
+		.ui-iggrid-pagerrecordslabel{left:56% !important;}
+    }
+	 @media screen and (max-width : 980px) {
+		.ui-iggrid-pagerrecordslabel{left:52% !important;}
+    }
+	 @media screen and (max-width : 800px) {
+		.ui-iggrid-pagerrecordslabel{left:42% !important;}
+    }
+	@media screen and (max-width : 736px) {
+		.ui-iggrid-pagerrecordslabel{display:none !important;}
+    }
+	@media screen and (max-width : 768px) {
+		.ui-iggrid-pagerrecordslabel{left:47% !important;}
+    }
+
+    @media only screen and (max-width : 640px) {
+		.ui-iggrid-pagerrecordslabel{display: none !important;}
+    }
+
+    @media screen and(max-width : 360px) {
+        .ui-iggrid-pagerrecordslabel{display: none !important;}
+    }
+	@media screen and(max-width : 320px) {
+        .ui-iggrid-pagerrecordslabel{display: none !important;}
+    }
+
+.ui-iggrid .ui-iggrid-tablebody > tr > td:first-child a img{ width:100%;} 
+
+.padleft{ padding-left:20px!important;}

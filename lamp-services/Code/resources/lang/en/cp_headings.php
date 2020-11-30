@@ -1,0 +1,80 @@
+<?php
+
+/*
+ * Author: Naresh Pulipati
+ * Date : 21-06-2016
+ * 
+ */
+return array(
+    /* Common for all pages */
+    'home' => 'Home',
+    'action' => 'Action',
+    'status' => 'Status',
+    'country' => 'Country*',
+    'currency' => 'Currency',
+    'start_date' => 'Start Date',
+    'end_date' => 'End Date',
+    'eb_status' => 'Ebutor Status',
+    'categories' => 'Categories',
+    'feature' => 'Features/Attributes',
+    'variants' => 'Variants/Options',
+    'uploadfile' => 'Upload File',
+    /* Channel/Commerce platform Pages */
+    'cp' => 'Commerce Platforms',
+    'cp_add' => 'Add Channel',
+    'cp_edit' => 'Edit Channel',
+    'cp_grid_logo' => 'Logo',
+    'cp_grid_title' => 'Name',
+    'cp_grid_url' => 'URL',
+    'cp_grid_type' => 'Type',
+    'cp_grid_ordersync' => 'Order Sync',
+    'cp_tab_info' => 'Channel Information',
+    'cp_tab_map_categories' => 'Map Categories',
+    'cp_tab_charges' => 'Channel Charges',
+    'cp_tab_categories' => 'Categories',
+    'cp_tab_map_status' => 'Map Status',
+    'cp_name' => 'Channel Name*',
+    'cp_type' => 'Channel Type *',
+    'cp_desc' => 'Channel Description *',
+    'cp_logo' => 'Channel Logo *',
+    'cp_upload_logo' => 'Upload Logo',
+    'cp_upload_help' => 'Use image that are 300*300 pixels and less than 2 MB in size',
+    'cp_url' => 'Channel Url *',
+    'cp_priceurl' => 'Price Url *',
+    'cp_tcurl' => 'T&C Url *',
+    'cp_shippingurl' => 'Shipping Url *',
+    'cp_issupport' => 'Is support Parent Category?*',
+    'cp_servicetype' => 'Services Type',
+    'cp_chargetype' => 'Charges Type',
+    'cp_charges' => 'Charges',
+    'cp_isrecur' => 'Is Recurring',
+    'cp_rec_interval' => 'Recurring Interval',
+    /* Categories */
+    'cp_cat' => 'Channel Category *',
+    'cp_cat_name' => 'Category Name',
+    'cp_cat_id' => 'Category ID',
+    'cp_attributes' => 'Attributes',
+    'cp_attr_name' => 'Attribute Name',
+    'cp_attr_id' => 'Attribute Id',
+    'cp_var' => 'Variants',
+    'cp_var_name' => 'Variant Name',
+    'cp_var_id' => 'Variant Id',
+    'cp_bulk_upload' => 'LIST MANY CATEGORIES VIA BULK UPLOAD',
+    'cp_download_template' => 'Download the template to fill categories and upload',
+    'cp_upload_catfile' => 'Upload your category file',
+    'cp_tab_charge' => 'Channel Charges *',
+    'cp_edit_cat' => 'Edit Channel Categories',
+    'cp_pop_add_cat' => 'ADD CATEGORY',
+    'cp_pop_cat' => 'Category *',
+    'cp_pop_parent' => 'Parent Gategory*',
+    'cp_pop_catid' => 'Category ID*',
+    'cp_pop_catcharge' => 'Category Charge*',
+    'cp_pop_catchargetype' => 'Charge Type*',
+    /* Mapping categories */
+    'cp_map_category' => 'Map New Category',
+    'cp_cat_map' => 'CATEGORY MAPPING',
+    'cp_categories' => 'Channel Categories',
+    /* Order status */
+    'cp_status' => 'Channel Status',
+);
+?>

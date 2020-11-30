@@ -1,0 +1,1 @@
+{{HTML::script('assets/global/plugins/get-manufacturer-list.js')}}

@@ -1,0 +1,40 @@
+<?php
+return 
+[
+    'heading_1' => 'Product Taxes',
+    'filter_by' => 'Filter By',
+    'upload_product_tax_btn' => 'Upload Tax Mapping',
+    'grid_column_1' => 'Category Name',
+    'grid_column_2' => 'Product Title',
+    'grid_column_3' => 'SKU ID',
+    'grid_column_4' => 'Brand',
+    'grid_column_5' => 'Action',
+    'grid_popup_product_title' => 'Product Title',
+    'grid_popup_sku' => 'SKU ID',
+    'grid_popup_category' => 'Category',
+    'grid_popup_brand' => 'Brand',
+    'grid_popup_tax_type' => 'Tax Type',
+    'grid_popup_action' => 'Action',
+    'grid_popup_level2_hsncode' => 'HSN Code',
+    'grid_popup_level2_select_hsncode' => 'Select HSN Code',
+    'grid_popup_level2_assign_tax' => 'Assign Tax Class',
+    'grid_popup_level2_state' => 'State',
+    'grid_popup_level2_select_state' => 'Select State',
+    'grid_popup_level2_available_taxes' => 'Avaliable Tax Classes',
+    'grid_popup_level2_select_tax_class' => 'Select Tax Class',
+    'grid_popup_level2_assign_tax_btn' => 'Assign Tax Class',
+    'grid_popup_level2_effective_date' => 'Effective Date',
+    'uploadtax_popup_title' => 'Product Tax Mapping',
+    'uploadtax_popup_category_select' => 'Category',
+    'uploadtax_popup_brand_select' => 'Brand',
+    'uploadtax_popup_tax_select' => 'Tax Type',
+    'uploadtax_popup_download_btn' => 'Download Template',
+    'uploadtax_popup_choose_file' => 'Choose Tax Class File',
+    'uploadtax_popup_upload_btn' => 'Upload Tax Mapping',
+    'uploadtax_popup_download_hsncodes_btn' => 'Download HSN Details',
+    'grid_popup_hsncode' => 'HSN Code',
+    'grid_popup_hsndesc' => 'HSN Description',
+    'grid_popup_hsnper' => 'HSN Percentage'
+];
+
+?>

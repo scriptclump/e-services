@@ -1,0 +1,22 @@
+	<div class="col-sm-9 constrained innertab"  style="overflow-y:scroll;height:300px; border: 1px solid lightgray;">
+						<table  class="table table-striped" id="div-to-update" infinite-scroll="myPagingFunction(upiData)"  infinite-scroll-distance="3" infinite-scroll-parent="true" infinite-scroll-disabled="busyLoadingData" infinite-scroll-container='".constrained"' >
+							<thead>
+								<tr>
+									<th >Vehicle </th>
+									<th >Capacity</th>
+
+								</tr>
+
+							</thead>
+							<div>
+								<tbody>
+									<tr ng-repeat="(k,valu) in data.vehicles[key]" ng-model="data.vehicles[key]">
+										<td><%valu.vehicle_number%></td>
+										<td><%valu.vehicle_max_load%></td>
+
+
+									</tr>
+								</tbody>
+							</div>
+						</table>
+					</div>

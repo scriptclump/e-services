@@ -1,0 +1,2 @@
+PHP Fatal error:  Class 'Illuminate\Foundation\Application' not found in /var/www/fbe/Code/bootstrap/app.php on line 14
+PHP Fatal error:  Class 'Illuminate\Foundation\Application' not found in /var/www/fbe/Code/bootstrap/app.php on line 14

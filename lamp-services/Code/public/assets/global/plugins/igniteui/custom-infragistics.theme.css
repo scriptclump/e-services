@@ -1,0 +1,281 @@
+.ui-autocomplete {
+    z-index: 99999 !important;
+}
+
+.stateHover {
+	border: 1px solid #999 !important;
+	background-color: #f2f2f2 !important;
+	color: #444 !important;
+}
+
+.ui-datepicker .ui-datepicker-title select {
+	font-size: 12px !important;
+	margin: 1px 0 !important;
+}
+.ui-widget {
+	font-family: "Open Sans", sans-serif !important;
+	outline: 0 !important;
+	font-size: 14px !important;
+}
+.ui-widget .ui-widget {
+	font-size: 1em !important;
+}
+.ui-widget .ui-widget {
+	font-size: 13px !important;
+}
+.ui-widget-header {
+	background: #f2f2f2 !important;
+	border-bottom: 0px solid #ebeef4 !important;
+	color: #444 !important;
+	font-weight: normal !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background-color: #fff !important;
+	color: #444 !important;
+	font-size:12px !important;
+}
+.ui-iggrid td.ui-state-highlight{background-color:#f9fafb !important;}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover {
+	background: #1bbc9b ;
+	color: #fff !important;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	border: 0px solid #bbb !important;
+	background-color: #f2f2f2 !important;
+	color: #444444 !important;
+}
+.ui-widget-header.ui-state-default {
+	background: #f2f2f2 !important;
+	color: #000 !important;
+	font-weight: normal !important;
+	border: 0 !important;
+}
+.ui-widget-header.ui-state-hover {
+	background: #1bbc9b !important;
+	color: #fff !important;
+	font-weight: normal !important;
+}
+.ui-accordion .ui-accordion-header.ui-state-hover {
+	border: 1px solid #999 !important;
+	background-color: #f6f6f6 !important;
+	color: #444 !important;
+}
+.ui-menu .ui-menu-item.ui-state-focus {
+	color: #444 !important;
+	background: #f6f6f6 !important;
+	border: 1px solid #999 !important;
+}
+.ui-dialog .ui-dialog-titlebar {
+	background: #f2f2f2 !important;
+	border: 1px solid #ebeef4 !important;
+	color: #000 !important;
+}
+.ui-dialog .ui-dialog-titlebar.ui-state-focus {
+	background: #f2f2f2 !important;
+	border-color: #ebeef4 !important;
+}
+.ui-tabs .ui-tabs-nav li.ui-state-default {
+	background: #f2f2f2 !important;
+	border-color: #ebeef4 !important;
+}
+.ui-tabs .ui-tabs-nav li.ui-state-hover {
+	background: #444 !important;
+	border-color: #444 !important;
+}
+.ui-tabs .ui-tabs-nav li.ui-state-hover {
+	background: #1bbc9b !important;
+	border-color: #444 !important;
+}
+.ui-datepicker .ui-datepicker-calendar a.ui-state-hover {
+	border: 1px solid #999 !important;
+	background-color: #f6f6f6 !important;
+	color: #444 !important;
+}
+.ui-iggrid .ui-iggrid-footer .ui-iggrid-paging-item.ui-state-default, .ui-iggrid .ui-iggrid-footer .ui-iggrid-paging-item .ui-iggrid-page.ui-state-default {
+	border: 1px solid #ddd !important;
+	background-color: #fff !important;
+	color: #444 !important;
+}
+.ui-iggrid .ui-iggrid-footer .ui-iggrid-paging .ui-iggrid-page.ui-state-hover, .ui-iggrid .ui-iggrid-footer .ui-iggrid-paging .ui-iggrid-paging-item.ui-state-hover {
+	border: 1px solid #999 !important;
+	background-color: #ccc !important;
+	color: #444 !important;
+}
+.ui-iggrid .ui-iggrid-footer .ui-iggrid-paging .ui-iggrid-page.ui-state-hover, .ui-iggrid .ui-iggrid-footer .ui-iggrid-paging .ui-iggrid-paging-item.ui-state-hover {
+	border-bottom: 1px solid #dddddd !important;
+	background-color: #f2f2f2 !important;
+	color: #444 !important;
+}
+.fa-question-circle-o {
+    color: #3598dc !important;
+}
+
+.ui-iggrid .ui-iggrid-content {
+	border-color: #f2f5f8 !important;
+}
+.ui-iggrid tr.ui-ig-altrecord {
+	background-color: #f0f0f0 !important;
+}
+.ui-iggrid tr.ui-ig-altrecord {
+	background-color: #f9f9f9 !important;
+}
+.ui-iggrid .ui-iggrid-headertable-mrl th, .ui-iggrid .ui-iggrid-table-mrl th {
+	border: 0px solid #777 !important;
+}
+.ui-iggrid .ui-iggrid-summaries-footer-icon-container.ui-state-hover .ui-icon {
+	background-color: #f6f6f6!important
+}
+.ui-iggrid-scrolldiv {
+	background-color: #f0f0f0 !important;
+	border-bottom: 0px solid #dadada !important
+}
+.ui-iggrid th, .ui-iggrid th.ui-state-default {
+	border-right: 0px solid #777 !important;
+}
+.ui-iggrid th.ui-state-hover {
+	background: #f2f2f2 !important;
+	color: #000 !important;
+}
+.ui-iggrid-filterbutton {
+    border: 0px solid transparent !important;
+}
+.ui-iggrid-childarea{padding-left:30px !important;}
+ .ui-iggrid .ui-iggrid-toolbar {
+	background-color: #fff !important;
+	padding:0px !important;
+	font-weight: normal !important;
+	text-align: left !important;
+	color: #444 !important;
+	border-top: 0 !important;
+	display: block
+}
+.ui-iggrid .ui-iggrid-footer .ui-state-default, .ui-iggrid .ui-iggrid-toolbar .ui-state-default, .ui-iggrid .ui-iggrid-addrow td, .ui-iggrid .ui-iggrid-addrow th, .ui-iggrid .ui-iggrid-footer .ui-state-hover {
+	background-color: #ccc !important;
+	color: #444 !important;
+	text-decoration: none !important;
+}
+.ui-iggrid .ui-iggrid-footer .ui-state-default, .ui-iggrid .ui-iggrid-toolbar .ui-state-default, .ui-iggrid .ui-iggrid-addrow td, .ui-iggrid .ui-iggrid-addrow th, .ui-iggrid .ui-iggrid-footer .ui-state-hover {
+	background-color: #fff !important;
+	color: #444 !important;
+	text-decoration: none !important;
+}
+.ui-iggrid .ui-iggrid-footer .ui-state-default a, .ui-iggrid .ui-iggrid-toolbar .ui-state-default a, .ui-iggrid .ui-iggrid-addrow td a, .ui-iggrid .ui-iggrid-footer .ui-state-active a {
+	color: #444 !important;
+	text-decoration: none !important;
+}
+.ui-iggrid .ui-iggrid-footer .ui-state-default a, .ui-iggrid .ui-iggrid-toolbar .ui-state-default a, .ui-iggrid .ui-iggrid-addrow td a, .ui-iggrid .ui-iggrid-footer .ui-state-active a {
+	color: #444 !important;
+	text-decoration: none !important;
+}
+.ui-iggrid tbody td, .ui-iggrid tbody th.ui-iggrid-rowselector-class, .ui-iggrid thead .ui-iggrid-editingcell, .ui-iggrid tfoot td {
+	border-top: 1px solid transparent !important;
+	border-bottom: 1px solid #f6f6f6 !important;
+}
+.ui-iggrid td.ui-state-hover, .ui-iggrid .ui-ig-altrecord td.ui-state-hover, .ui-iggrid .ui-ig-altrecord td.ui-state-default.ui-state-hover, .ui-iggrid th.ui-iggrid-rowselector-class.ui-state-hover, .ui-iggrid .ui-ig-altrecord th.ui-iggrid-rowselector-class.ui-state-hover, .ui-iggrid .ui-ig-altrecord th.ui-iggrid-rowselector-class.ui-state-default.ui-state-hover, .ui-iggrid-responsive-vertical tr>td.ui-state-hover:first-child, .ui-iggrid-responsive-vertical tr.ui-ig-altrecord>td.ui-state-hover:first-child {
+	color: #444 !important;
+	background: #f6f6f6 !important;
+}
+.ui-igedit-list .ui-igedit-listitem {
+	font-size: 12px !important;
+	line-height: 1.4em !important;
+}
+.ui-igedit-dropdown, .ui-iggrid-filterdd, .ui-iggrid-featurechooser-dropdown-dialog, .ui-widget.ui-widget-content.ui-igpivot-filterdropdown, .ui-widget.ui-widget-content.ui-igpivot-metadatadropdown {
+	background: #fff !important;
+	border: 0px solid #bcbcbc !important;
+}
+.ui-igedit-dropdown .ui-igedit-listitem.ui-state-hover, .ui-igedit-list .ui-igedit-listitem.ui-state-hover, .ui-iggrid-filterddlist li.ui-state-hover, .ui-iggrid-filterddlistitem.ui-state-hover a, .ui-iggrid-featurechooser-list.ui-state-hover a, .ui-iggrid-hiding-dropdown-list li.ui-state-hover, .ui-iggrid-hiding-dropdown-list.ui-state-hover a, .ui-iggrid-columnmoving-dropdown-list li.ui-state-hover, .ui-iggrid-columnmoving-dropdown-list.ui-state-hover a, .ui-igcombo-listitemholder li.ui-state-hover, .ui-igcombo-listitemholder li.ui-state-hover a {
+	border: 1px solid #999 !important;
+	background-color: #f6f6f6 !important;
+	color: #444 !important;
+}
+.ui-iggrid .ui-iggrid-tablebody > tr > td:last-child, .ui-iggrid .ui-iggrid-table > tbody > tr > td:last-child, .ui-iggrid thead .ui-iggrid-editingcell:last-child{border-right:0px }
+.ui-ig-altrecord+tr>td.ui-iggrid-childarea {
+	background-color: #fff !important;
+}
+.ui-iggrid tbody .ui-iggrid-mergedcell.ui-state-hover, .ui-iggrid tbody .ui-ig-altrecord .ui-iggrid-mergedcell.ui-state-hover {
+	background-color: #f6f6f6 !important;
+	color: #444 !important;
+}
+.ui-igtree a.ui-state-hover {
+	border: 1px solid #999 !important;
+	background-color: #f6f6f6 !important;
+	color: #444 !important;
+}
+.ui-ightmleditor {
+	background-color: #f6f6f6 !important;
+	border: 1px solid #bcbcbc !important;
+}
+.ui-ightmleditor .ui-igtoolbar-wrap .ui-igbutton.ui-state-hover, .ui-ightmleditor .ui-igtoolbar .ui-igbutton.ui-state-hover {
+	border: 1px solid #999 !important;
+	background-color: #f6f6f6 !important;
+	color: #444 !important;
+}
+.ui-ightmleditor .ui-igtoolbar .ui-igbutton.ui-state-hover {
+	border: 1px solid #999 !important;
+	background-color: #f6f6f6 !important;
+	color: #444 !important;
+}
+.ui-ightmleditor .ui-igtoolbar .ui-igbutton.ui-state-hover.ui-state-active {
+	border: 1px solid #999 !important;
+	background-color: #ccc !important;
+	color: #444 !important;
+}
+.ui-ightmleditor .ui-igtoolbar .ui-igbutton.ui-state-hover.ui-state-active {
+	border: 1px solid #999 !important;
+	background-color: #f6f6f6 !important;
+	color: #444 !important;
+}
+.ui-igPathFinder .ui-button.ui-state-hover::after {
+	border-top: 1px solid #bcbcbc !important;
+	border-right: 1px solid #bcbcbc !important;
+	background: #f2f2f2 !important;
+}
+.ui-funnel {
+	font-family: "Segoe UI", Arial, sans-serif !important;
+	font-size: 12px !important;
+	color: #555 !important;
+	border: 0 !important;
+}
+.ui-radialgauge-tick {
+	background-color: #fff !important;
+	border-top-color: none !important;
+}
+.ui-radialgauge-minorTick {
+	background-color: #444 !important;
+	border: 0 !important;
+}
+.ui-radialgauge-minorTick {
+	background-color: #fff !important;
+	border: 0 !important;
+}
+.ui-igtreegrid-contextrow-icon.ui-icon.ui-icon-bookmark{
+	background-image: url(images/filter-icons-333333.png) !important;
+	background-position: -464px 0 !important;
+}
+@font-face {
+	font-family: 'jquery-ui' !important;
+	src: url('../../structure/fonts/jquery-ui.eot') !important;
+	src: url('../../structure/fonts/jquery-ui.eot') format('embedded-opentype'), url('../../structure/fonts/jquery-ui.woff') format('woff'), url('../../structure/fonts/jquery-ui.ttf') format('truetype'), url('../../structure/fonts/jquery-ui.svg') format('svg') !important;
+	font-style: normal !important;
+	font-variant: normal !important;
+	font-weight: normal
+}
+@font-face {
+	font-family: 'jquery-ui' !important;
+	src: url('fonts/jquery-ui.eot') !important;
+	src: url('fonts/jquery-ui.eot') format('embedded-opentype'), url('fonts/jquery-ui.woff') format('woff'), url('fonts/jquery-ui.ttf') format('truetype'), url('fonts/jquery-ui.svg') format('svg') !important;
+	font-style: normal !important;
+	font-variant: normal !important;
+	font-weight: normal
+}
+.ui-icon:before {
+	line-height: 1 !important;
+	margin-top: -7px !important;
+	position: absolute !important;
+	font-size:11px !important;
+}
+.ui-iggrid tfoot, .ui-iggrid-footer {
+    border-bottom: 0px solid #dadada !important;
+	
+}
+

@@ -1,0 +1,4 @@
+added collected in cash (907) ,extra charges ( 908 )in master lookup..
+added extracharges,proof_image in nct_trancation_tracking and nct_trancation_history tables.. 
+
+added new feature code as NCT005 ...

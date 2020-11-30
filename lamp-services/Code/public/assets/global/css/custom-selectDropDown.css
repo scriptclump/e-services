@@ -1,0 +1,16 @@
+.parent_cat{font-size:14px !important;  font-weight:600 !important;  background:#dbdbdb !important;}
+.parent_cat:hover{background:#f6f6f6 !important;}
+.sub_cat{font-size:12px !important; padding-left:7px !important; background:#f0efef !important; font-weight: bold !important;}
+.sub_cat:hover{background:#f6f6f6 !important;}
+.prod_class{font-size:12px !important; padding-left:14px !important; background:#fff !important; }
+.prod_class:hover{background:#f6f6f6 !important;}
+.prod_class_4{font-size:12px !important; padding-left:30px !important; background:#fff !important; }
+.prod_class_4:hover{background:#f6f6f6 !important;}
+.prod_class_5{font-size:12px !important; padding-left:45px !important; background:#fff !important; }
+.prod_class_5:hover{background:#f6f6f6 !important;}
+.prod_class_6{font-size:12px !important; padding-left:58px !important; background:#fff !important; }
+.prod_class_6:hover{background:#f6f6f6 !important;}
+.prod_class_7{font-size:12px !important; padding-left:65px !important; background:#fff !important; }
+.prod_class_7:hover{background:#f6f6f6 !important;}
+
+.select2-disabled{font-weight:bold !important;}

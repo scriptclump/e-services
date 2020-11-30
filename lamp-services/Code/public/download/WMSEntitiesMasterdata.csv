@@ -1,0 +1,12 @@
+Entity,Entity Type,,Dimension,Dimension UOM,,Capacity,Capacity UOM
+Warehouse,1,,Meter,1,,Litre,1
+Floor,2,,Feet,2,,KiloGrams,2
+Zone,3,,Yard,3,,Grams,3
+Rack,4,,,,,Metric Tonnes,4
+Bin,5,,,,,,
+OpenZone,6,,,,,,
+Put Away Zone,7,,,,,,
+Dock,8,,,,,,
+Office,9,,,,,,
+Stair Case,10,,,,,,
+Lift,11,,,,,,

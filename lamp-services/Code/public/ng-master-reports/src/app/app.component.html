@@ -1,0 +1,116 @@
+<div class="container-fluid">
+  <div class="row content">
+    <!-- <div class="col-sm-2 sidenav hidden-xs">
+      <h2>Reports</h2>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Dashboard<br/><br/></a></li>
+        <li><a href="#section2">Age</a> <br/><br/></li>
+        <li><a href="#section3">Gender</a><br/><br/></li>
+        <li><a href="#section3">Geo</a><br/><br/></li>
+      </ul><br>
+    </div> -->
+    <br>
+    
+    <div class="">
+     
+        <div  style="font-size:12px;padding-bottom:10px;margin: auto;width:1000px;display: inline-flex">
+          <div class="col-md-2">
+            <label>Report Name</label>
+            <select  style="padding-left:5%;width: 100%;height: 39px;border: 1px solid #f2f2f2;" [(ngModel)]="tablename" (change)="getData();changeInTable();">
+              <option value="vw_dynamic_order_details">Order</option>
+              <!-- <option value="pjp_pincode_area">someother</option>
+              <option value="users">users</option> -->
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label>Group By</label>
+            <ng-multiselect-dropdown
+                [data]="KeysForDropDown"
+                [(ngModel)]="groupByColumn"
+                [settings]="dropdownSettings"
+                (ngModelchange)="getData()"
+              >
+            </ng-multiselect-dropdown>
+          </div>
+          <div class="col-md-2">
+            <label>Filters</label>
+            <ng-multiselect-dropdown
+                [data]="KeysForFilters"
+                [(ngModel)]="filterByColumn"
+                [settings]="dropdownSettings"
+              >
+            </ng-multiselect-dropdown>
+          </div>        
+         
+          <div class="col-md-2" style="padding-top: 30px;display:inline-flex">
+            <input type="checkbox" name="include_dcs" id="include_dcs" [(ngModel)]="dcs_checked"><p style="margin-top: 2px;">Only DC's</p>
+          </div>
+      <!--   </div>
+        <div class="row" style="margin: auto"> -->
+          <div class="col-md-2" style="padding-right: 10px;">
+            <label style="font-size: 12px;">From Date</label>
+
+            <div class="input-group" >
+              <input class="form-control" placeholder="yyyy-mm-dd"
+                     [(ngModel)]="fromDate" ngbDatepicker #d="ngbDatepicker" [maxDate]="maxDate" (ngModelChange)="fixMinDateForTo()" style="height: 33px;border: 1px solid #adadad;">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary calendar_today" (click)="d.toggle()" type="button"></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2" style="padding-right: 10px;">
+            <label style="font-size: 12px;">To Date</label>
+
+            <div class="input-group" >
+              <input class="form-control" placeholder="yyyy-mm-dd"
+                      [(ngModel)]="toDate" ngbDatepicker #p="ngbDatepicker" [minDate]="minDate" (ngModelChange)="fixMinDateForFrom()" style="height: 33px;border: 1px solid #adadad;">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary calendar" (click)="p.toggle()" type="button"></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1" style="padding-top: 24px;margin-right: -1px">
+            <button class="btn btn-primary" style="font-size:15px" (click)="getData()">Submit</button>
+          </div>
+          <div class="col-md-1" style="padding-top: 24px;margin-right: -1px">
+            <button class="btn btn-primary" style="font-size:15px" (click)="exportData()">Export</button>
+          </div>
+        </div>
+        <div class="row" style="overflow:auto;height: auto;width: 1300px;padding-left: 30px">
+          <ng-template #customLoadingTemplate>
+              <div class="custom-class">
+              </div>
+          </ng-template>
+          <ngx-loading [show]="loading" [config]="{ backdropBorderRadius: '3px' }" [template]="customLoadingTemplate"></ngx-loading>
+          <table class="table table-striped" [mfData]='showResponse' #mf="mfDataTable" [mfRowsOnPage]="10" style="font-size:12px;">
+            <thead style="width:900px;background-color:#f2f2f2" >
+              <tr>
+                <th style="width:20%" *ngFor="let i of keys" >
+                  <mfDefaultSorter [by]=i >{{i | heading}}
+                 
+                  </mfDefaultSorter><br />
+                  <input type="text" style="width:65%" [(ngModel)]="filtertext[i]" (change)="getData()"/>
+                </th>
+              </tr>
+            </thead>
+            <tbody style="width:900px">
+                <tr  *ngFor="let res of mf.data;">
+
+                    <td  *ngFor="let i of keys">{{res[i]}}</td>
+
+                </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <td colspan="12">
+                  <mfBootstrapPaginator [rowsOnPageSet]="[5,10,25]"></mfBootstrapPaginator>
+                </td>
+              </tr>
+            </tfoot>
+
+          </table>
+        </div>
+      </div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+    # Redirect Trailing Slashes...
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+php_value upload_max_filesize 40M
+php_value post_max_size 40M
+Header always set Access-Control-Allow-Origin "*"
+Header always set Access-Control-Allow-Methods "POST, GET, OPTIONS, DELETE, PUT"
+Header always set Access-Control-Allow-Headers "x-requested-with, Content-Type, origin, authorization, accept, client-security-token , Access-Control-Allow-Headers"

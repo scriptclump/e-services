@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+body{
+	padding-top: 1%;
+}
+html, body { }
+body { margin: 0; font-family: 'Roboto', sans-serif; }
+.cdk-live-announcer-element .cdk-visually-hidden{
+	display: none;
+}
+.row.content {height: 550px}
+    
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+}
+.nav{
+	display: grid;
+}
+.navbar{
+	position: fixed;
+	display : block;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 0.5rem 1rem !important;
+}
+    
+/* On small screens, set height to 'auto' for the grid */
+@media screen and (max-width: 767px) {
+  .row.content {height: auto;} 
+}
+.float-sm-right{
+	padding-bottom: 0px;
+    padding-left: 79%;
+    margin-bottom: -20px;
+    float: unset!important;
+}

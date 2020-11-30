@@ -1,0 +1,26 @@
+<?php
+return [
+    'alertRecieveQtyEmpty' => 'Please enter valid receive quantity.',
+    'alertRecieveQty'=>'Receive quantity must be greater than zero.',
+    'alertSkuEmpty'=>'Please enter product sku / name.',
+    'alertAlreadAdded'=>'You have already added this product.',
+    'alertDiscount'=>'Discount should not be less than grand total.',
+    'alertUomEmpty'=>'Please select UOM of product.',
+    'alertAtleastOneProd'=>'Please select at least one product.',
+    'confirmMsg'=>'Do you want to receive more than PO quantity?',
+    'alertUploadDoc'=>'Please upload at least one document.',
+    'alterDelete'=>'Do you want to delete this document?',
+    'alertExtension'=>'Please upload only pdf, doc, docx, png, jpg, jpeg extensions.',
+    'successCommented'=>'Comment added successfully.',
+    'successUploaded' => 'Document has been uploaded successfully.',
+    'successCreated' => 'GRN has been created successfully.',
+    'successDelete'=>'Document has been deleted Successfully.',
+    'notificationMsg'=>'GRN #GRNID created successfully',
+    'alertAckDoc'=>'Please upload GRN received acknowledgement',
+    'alreadyExist'=>'Same Invoice Number already given to another GRN,Please click "Allow Duplicate" option to proceed',
+    'returnAlertExtension'=>'Please upload only pdf, doc, docx, png, jpg, jpeg extensions.',
+    'returnacksuccessUploaded' => 'Document has been uploaded successfully.',
+    'errorInputData' => 'Please input valid data.',
+    'serialnoerror' => 'Serial No should not be empty.',
+];
+?>
